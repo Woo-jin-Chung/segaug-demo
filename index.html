@@ -179,7 +179,7 @@ window.addEventListener("resize", () => { clearTimeout(window.__fitT); window.__
 if(document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
 fit();
 
-const SETTINGS = {"--ground": "#f7f7f3", "--line": "#9b9abc", "--ref-soft": "#f7f7ed", "--muted": "#1d1b1b", "--ink": "#020303", "--base": "#c70a00", "--aug": "#0b2c8e", "--ref": "#566c62", "--bar-bw": "0px", "--bar-bs": "dotted", "--card-bw": "3px", "--card-r": "3px", "--track-r": "0px", "--bar-r": "3px", "--track-bw": "0px", "--card-bc": "#a7a795", "--track-bc": "#7b7a99", "--bar-border": "#221c2c", "--row-bw": "0.5px", "--row-bc": "#c0bfc4", "--tl-bw": "2px", "--tl-bc": "#b2b1be", "--card-bs": "double"};
+const SETTINGS = {"--ground": "#f7f7f7", "--line": "#9b9abc", "--ref-soft": "#f7f7ed", "--muted": "#1d1b1b", "--ink": "#020303", "--base": "#c70a00", "--aug": "#0b2c8e", "--ref": "#566c62", "--bar-bw": "0px", "--bar-bs": "dotted", "--card-bw": "3px", "--card-r": "3px", "--track-r": "0px", "--bar-r": "3px", "--track-bw": "0px", "--card-bc": "#a7a795", "--track-bc": "#7b7a99", "--bar-border": "#221c2c", "--row-bw": "0.5px", "--row-bc": "#c0bfc4", "--tl-bw": "2px", "--tl-bc": "#b2b1be", "--card-bs": "double"};
 for(const [k,v] of Object.entries(SETTINGS)) document.documentElement.style.setProperty(k, v);
 fit();
 </script>
